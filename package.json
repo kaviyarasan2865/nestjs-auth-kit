@@ -1,0 +1,78 @@
+{
+  "name": "nextjs-auth-kit",
+  "version": "1.2.0",
+  "description": "A package to set up login and signup functionality in Next.js.",
+  "main": "./bin/setup.js",
+  "bin": {
+    "nextjs-auth-kit": "./bin/setup.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/setup.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.0",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.9.16",
+    "tailwind-merge": "^2.5.5"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "templates/api/",
+    "templates/api/auth/",
+    "templates/api/auth/[...nextauth]/",
+    "templates/api/auth/check-auth-provider/",
+    "templates/api/auth/check-user/",
+    "templates/api/auth/forgot-password/",
+    "templates/api/auth/login/",
+    "templates/api/auth/send-otp/",
+    "templates/api/auth/setup-password/",
+    "templates/api/auth/signup/",
+    "templates/api/auth/verify/",
+    "templates/api/auth/verify-otp/",
+    "templates/api/auth/verify-reset-token/",
+    "templates/app/",
+    "templates/app/signup/",
+    "templates/app/login/",
+    "templates/app/dashboard/",
+    "templates/lib/",
+    "templates/lib/utils/",
+    "templates/models/",
+    "templates/types/",
+    "templates/page.tsx",
+    "templates/middleware.ts",
+    "templates/env",
+    "README.md"
+  ],
+  "keywords": [
+    "nextjs",
+    "authentication",
+    "signup",
+    "login",
+    "next-auth",
+    "oauth",
+    "google-auth"
+  ],
+  "author": "Kaviyarasan & Sany",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaviyarasan2865/nextJs-auth-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaviyarasan2865/nextJs-auth-setup/issues"
+  },
+  "homepage": "https://github.com/kaviyarasan2865/nextJs-auth-setup#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
