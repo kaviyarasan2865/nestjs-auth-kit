@@ -31,11 +31,11 @@ Note: Use TypeScript and src directory while creating a new next application
 ## Then install the package
 
 ```bash
-npm i nextjs-auth-setup-kit
+npm i nextjs-auth-kit
 ```
 or
 ```bash
-npm i nextjs-auth-setup-kit --legacy-peer-deps
+npm i nextjs-auth-kit --legacy-peer-deps
 ```
 ---
 
@@ -57,16 +57,16 @@ Ensure you have the following before getting started:
 Run the following command in your Next.js project:
 
 ```bash
-npm i nextjs-auth-setup-kit
+npm i nextjs-auth-kit
 ```
 or
 ```bash
-npm i nextjs-auth-setup-kit --legacy-peer-deps
+npm i nextjs-auth-kit --legacy-peer-deps
 ```
 
 ### 2. Configure Environment Variables
 
-Create a `.env` file in your project root and add the following:
+Edit the `.env` file in your project root and add the following:
 
 ```env
 MONGODB_URI=your_mongoDB_URI
@@ -166,7 +166,7 @@ This project is licensed under the **MIT License**.
 
 For any questions or support, you can:
 
-- Open an issue on [GitHub](https://github.com/kaviyarasan2865/nextJs-auth-setup.git).
+- Open an issue on [GitHub](https://github.com/kaviyarasan2865/nextjs-auth-kit.git).
 - Connect on LinkedIn:
   - [Sany's LinkedIn Profile](https://www.linkedin.com/in/asany/)
   - [Kaviyarasan's LinkedIn Profile](https://www.linkedin.com/in/kaviyarasan--g/)

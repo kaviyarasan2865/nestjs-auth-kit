@@ -1,6 +1,6 @@
 {
   "name": "nextjs-auth-kit",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A package to set up login and signup functionality in Next.js.",
   "main": "./bin/setup.js",
   "bin": {
@@ -66,12 +66,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaviyarasan2865/nextJs-auth-setup.git"
+    "url": "https://github.com/kaviyarasan2865/nextjs-auth-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/kaviyarasan2865/nextJs-auth-setup/issues"
+    "url": "https://github.com/kaviyarasan2865/nextjs-auth-kit.git/issues"
   },
-  "homepage": "https://github.com/kaviyarasan2865/nextJs-auth-setup#readme",
+  "homepage": "https://github.com/kaviyarasan2865/nextjs-auth-kit.git#readme",
   "engines": {
     "node": ">=14.0.0"
   }
